@@ -1,6 +1,28 @@
 [package]
 name = "text2checkstyle"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Sanemat <o.gata.ken@gmail.com>"]
+description = "text to checkstyle."
+repository = "https://github.com/packsaddle/rust-text2checkstyle"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "changelog.md",
+    "readme.md",
+    "license-apache",
+    "license-mit"
+]
+keywords = [
+    "checkstyle",
+    "text",
+]
+categories = [
+    "development-tools",
+]
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "packsaddle/rust-text2checkstyle" }
+appveyor = { repository = "packsaddle/rust-text2checkstyle", project_name = "sanemat/rust-text2checkstyle" }
 
 [dependencies]
