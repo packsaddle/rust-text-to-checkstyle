@@ -1,6 +1,6 @@
 [package]
 name = "text2checkstyle"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Sanemat <o.gata.ken@gmail.com>"]
 description = "text to checkstyle."
 repository = "https://github.com/packsaddle/rust-text2checkstyle"
