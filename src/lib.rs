@@ -1,5 +1,6 @@
+extern crate checkstyle_formatter as checkstyle;
+
 use std::error::Error;
-mod checkstyle;
 
 pub fn run(
     message: &str,
