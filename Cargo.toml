@@ -27,4 +27,4 @@ repository = "packsaddle/rust-text2checkstyle"
 repository = "packsaddle/rust-text2checkstyle"
 
 [dependencies]
-checkstyle_formatter = { path = "../rust-checkstyle_formatter" }
+checkstyle_formatter = "1.0.0"
