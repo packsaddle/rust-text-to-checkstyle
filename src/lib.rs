@@ -13,12 +13,12 @@ pub fn run(
     let piece = checkstyle::ErrorPiece {
         column,
         line,
-        message: message.to_string(),
-        severity: severity.to_string(),
-        source: source.to_string(),
+        message: message.to_owned(),
+        severity: severity.to_owned(),
+        source: source.to_owned(),
     };
     let file = checkstyle::ErrorFile {
-        name: name.to_string(),
+        name: name.to_owned(),
         error_pieces: vec![piece],
     };
     let container = checkstyle::Container { error_files: vec![file] };
